@@ -35,8 +35,7 @@ export default {
 }
 </script>
 
-<styl,
-    LearningStagee>
+<style>
 * {
   padding: 0;
   margin: 0;
