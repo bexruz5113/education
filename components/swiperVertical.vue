@@ -2,7 +2,7 @@
   <div>
     <div v-swiper:mySwiper="swiperOption">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
+        <div id="zero" class="swiper-slide">
           <div class="rounded-2xl p-5 bg-gray-50 mx-4">
             <div class="flex justify-between items-center">
               <div>
@@ -106,7 +106,7 @@
             </div>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div id="first" class="swiper-slide">
           <div class="rounded-2xl p-5 bg-gray-50 mx-4">
             <div class="flex justify-between items-center">
               <div>
@@ -210,7 +210,7 @@
             </div>
           </div>
         </div>
-        <div class="swiper-slide">
+        <div id="second" class="swiper-slide">
           <div class="rounded-2xl p-5 bg-gray-50 mx-4">
             <div class="flex justify-between items-center">
               <div>
@@ -327,7 +327,6 @@ export default {
       swiperOption: {
         direction: 'vertical',
         slidesPerView: 'auto',
-        autoplay: true,
         freeMode: true,
         effect: 'coverflow',
         spaceBetween: 30,

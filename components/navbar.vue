@@ -4,7 +4,10 @@
       <div class="w-2/3 flex items-center">
         <div>
           <nuxt-link to="#">
-            <img src="../assets/Group 1.png" />
+            <img
+              style="width: 100%; max-width: 135px"
+              src="../assets/Group 1.png"
+            />
           </nuxt-link>
         </div>
         <div class="ml-2 lg:flex hidden">
@@ -50,28 +53,41 @@
 
         <div v-if="sidebar" class="block addMenu">
           <div
-            class="w-100 text-right font-bold text-2xl cursor-pointer text-white pt-6 pr-6"
+            class="w-100 text-right font-bold text-3xl cursor-pointer text-block pt-5 pr-4"
             @click="!addMenu()"
           >
             X
           </div>
-          <div class="text-xl font-bold text-center py-4 text-white">
+          <div class="text-xl font-bold text-left py-2">
             <nuxt-link to="/"> Курсы </nuxt-link>
           </div>
-          <div class="text-xl font-bold text-center py-4 text-white">
+          <div class="text-xl font-bold text-left py-2">
             <nuxt-link to="/"> О нас </nuxt-link>
           </div>
-          <div class="text-xl font-bold text-center py-4 text-white">
+          <div class="text-xl font-bold text-left py-2">
             <nuxt-link to="/"> Цент Карьеры </nuxt-link>
           </div>
-          <div class="text-xl font-bold text-center py-4 text-white">
+          <div class="text-xl font-bold text-left py-2">
             <nuxt-link to="/"> Новости </nuxt-link>
           </div>
-          <div class="text-xl font-bold text-center py-4 text-white">
+          <div class="text-xl font-bold text-left py-2">
             <nuxt-link to="/"> Мероприятии </nuxt-link>
           </div>
-          <div class="text-xl font-bold text-center py-4 text-white">
+          <div class="text-xl font-bold text-left py-2">
             <nuxt-link to="/"> Контакты </nuxt-link>
+          </div>
+          <div>
+            <p class="text-black font-bold py-2">+998 98 900 9090</p>
+          </div>
+          <div>
+            <div class="flex justify-start py-2">
+              <div class="border-green-100 border-2 rounded-lg mx-3 p-3">
+                <img src="../assets/insta.png" alt="" />
+              </div>
+              <div class="border-green-100 border-2 rounded-lg mx-3 p-3">
+                <img src="../assets/Vector.png" alt="" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -89,6 +105,9 @@ export default {
   },
   methods: {
     addMenu() {
+      this.sidebar = !this.sidebar
+    },
+    removeMenu() {
       this.sidebar = !this.sidebar
     },
     toggle() {
@@ -109,14 +128,22 @@ export default {
 }
 ul li {
   margin: 0 15px;
+  font-family: sans-serif;
+}
+@media screen and (max-width: 1124px) {
+  ul li {
+    margin: 0 7px;
+  }
 }
 .addMenu {
   position: fixed;
+  color: black;
+  padding: 20px;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: white;
   animation: slide 1s forwards;
 }
 @keyframes slide {

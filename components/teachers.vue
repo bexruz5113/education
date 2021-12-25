@@ -1,30 +1,30 @@
 <template>
   <div class="bg-black relative p-5">
-    <div class="absolute top-0 right-0">
+    <div class="absolute right-0 top-0">
       <svg
-        width="821"
-        height="634"
-        viewBox="0 0 1321 934"
+        width="730"
+        height="772"
+        viewBox="0 0 1230 972"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g filter="url(#filter0_f_62_1477)">
+        <g filter="url(#filter0_f_10_65)">
           <rect
             x="500"
-            y="-149"
-            width="799"
-            height="800"
-            rx="399.5"
-            fill="#288800"
+            y="268.736"
+            width="405"
+            height="519.642"
+            rx="202.5"
+            fill="#3FD700"
           />
         </g>
         <defs>
           <filter
-            id="filter0_f_62_1477"
+            id="filter0_f_10_65"
             x="0"
-            y="-649"
-            width="1799"
-            height="1800"
+            y="-231.264"
+            width="1405"
+            height="1519.64"
             filterUnits="userSpaceOnUse"
             color-interpolation-filters="sRGB"
           >
@@ -37,17 +37,19 @@
             />
             <feGaussianBlur
               stdDeviation="250"
-              result="effect1_foregroundBlur_62_1477"
+              result="effect1_foregroundBlur_10_65"
             />
           </filter>
         </defs>
       </svg>
     </div>
     <div>
-      <p class="md:text-8xl text-5xl font-sans font-bold text-white">
+      <p
+        class="font-sans md:text-8xl text-5xl leading-normal text-white font-bold z-10"
+      >
         Наши преподы
       </p>
-      <p class="text-white text-2xl font-sans">
+      <p class="text-white text-2xl font-sans z-10">
         Каждый студент и выпускник является частю <br />семьи IT-Unity.
       </p>
     </div>

@@ -25,9 +25,9 @@
                 type="text"
               />
             </div>
-            <div class="w-full">
+            <div class="w-full z-20">
               <button
-                class="w-2/3 z-5 mx-auto bgColorFirst py-4 px-4 text-white rounded-2xl flex items-center my-2"
+                class="z-10 w-2/3 z-5 mx-auto bgColorFirst py-4 px-4 text-white rounded-2xl flex items-center my-2"
               >
                 <p class="mx-auto flex">
                   Записаться
@@ -39,7 +39,7 @@
         </div>
       </div>
     </div>
-    <div class="absolute lg:top-5 md:top-20 top-48 md:left-0 right-0">
+    <div class="absolute lg:top-5 md:top-20 top-48 md:left-0 right-0 -z-1">
       <svg
         style="width: 100%; max-width: 1336px; z-index: -1"
         height="281"

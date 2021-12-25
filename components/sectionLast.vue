@@ -25,44 +25,50 @@
 
     <div>
       <div class="flex">
-        <div class="frameFirst md:px-10 px-6 md:py-10 py-4">
-          <img class="my-3" src="../assets/image 5.png" />
+        <div class="frameFirst md:px-10 sm:px-6 px-4 md:py-10 sm:py-6 py-3">
+          <img class="xs:my-3 my-1.5" src="../assets/image 5.png" />
         </div>
-        <div class="frameFirst md:px-10 px-6 md:py-10 py-4 mx-3">
-          <img class="my-3" src="../assets/image 5.png" alt="" />
+        <div
+          class="frameFirst md:px-10 sm:px-6 px-4 md:py-10 sm:py-6 py-3 mx-3"
+        >
+          <img class="xs:my-3 my-1.5" src="../assets/image 5.png" alt="" />
         </div>
-        <div class="frameFirst md:px-10 px-6 md:py-10 py-4">
-          <img class="my-3" src="../assets/image 6.png" alt="" />
+        <div class="frameFirst md:px-10 sm:px-6 px-4 md:py-10 sm:py-6 py-3">
+          <img class="xs:my-3 my-1.5" src="../assets/image 6.png" alt="" />
         </div>
       </div>
       <div class="flex my-3">
-        <div class="frameFirst md:px-10 px-6 md:py-10 py-4">
-          <img class="my-3" src="../assets/image 10.png" alt="" />
+        <div class="frameFirst md:px-10 sm:px-6 px-4 md:py-10 sm:py-6 py-3">
+          <img class="xs:my-3 my-1.5" src="../assets/image 10.png" alt="" />
         </div>
-        <div class="frameSecond md:px-10 px-6 md:py-10 py-4 mx-3">
-          <img class="my-3" src="../assets/image 7.png" alt="" />
+        <div
+          class="frameSecond md:px-10 sm:px-6 px-4 md:py-10 sm:py-6 py-3 mx-3"
+        >
+          <img class="xs:my-3 my-1.5" src="../assets/image 7.png" alt="" />
         </div>
-        <div class="frameSecond md:px-10 px-6 md:py-10 py-4 mr-3">
+        <div class="frameSecond md:px-10 px-6 md:py-10 py-3 mr-3">
           <img class="my-2" src="../assets/image 8.png" alt="" />
         </div>
-        <div class="frameSecond md:px-10 px-6 md:py-10 py-4">
-          <img class="my-3" src="../assets/Logo (1).png" alt="" />
+        <div class="frameSecond md:px-10 sm:px-6 px-4 md:py-10 sm:py-6 py-3">
+          <img class="xs:my-3 my-1.5" src="../assets/Logo (1).png" alt="" />
         </div>
       </div>
       <div class="flex">
-        <div class="frameLast md:px-12 px-6 md:py-10 py-4 flex justify-around">
+        <div class="frameLast md:px-12 px-6 md:py-10 py-3 flex justify-around">
           <img
-            class="md:mr-4 mr-2 md:my-3 my-4"
+            class="md:mr-4 mr-2 md:my-3 sm :my-4"
             src="../assets/image 5.png"
             alt=""
           />
-          <p class="md:text-xl text-xs">
+          <p class="md:text-xl text-xs md:my-0 my-2">
             Ведущая IT-компания <br />
             Узбекистана
           </p>
         </div>
-        <div class="frameFirst md:px-12 px-6 md:py-10 py-4 ml-3">
-          <img class="my-3" src="../assets/image 6.png" alt="" />
+        <div
+          class="frameFirst md:px-12 sm:px-6 px-4 md:py-10 sm:py-6 py-3 ml-3"
+        >
+          <img class="xs:my-3 my-1.5" src="../assets/image 6.png" alt="" />
         </div>
       </div>
     </div>

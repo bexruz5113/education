@@ -13,10 +13,8 @@
     </div>
     <div class="md:flex justify-between block my-6">
       <div class="md:w-2/3 w-full md:mx-2 mx-auto mb-4 md:mb-0">
-        <div class="md:flex block mb-4">
-          <div
-            class="bg-gray-100 py-6 px-4 rounded-2xl md:mr-2 mr-0 md:mb-0 mb-4"
-          >
+        <div class="md:flex block mb-8">
+          <div class="bg-gray-100 p-10 rounded-2xl md:mr-3 mr-0 md:mb-0 mb-5">
             <div class="flex">
               <div class="pr-3">
                 <img width="76" src="../assets/Ellipse 4.png" />
@@ -44,9 +42,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="bg-gray-100 py-6 px-4 rounded-2xl md:ml-2 ml-0 md:mt-0 mt-4"
-          >
+          <div class="bg-gray-100 p-10 rounded-2xl md:ml-3 ml-0 md:mt-0 mt-5">
             <div class="flex">
               <div class="pr-3">
                 <img width="76" src="../assets/women.png" />
@@ -69,10 +65,8 @@
             </div>
           </div>
         </div>
-        <div class="md:flex block mt-4">
-          <div
-            class="bg-gray-100 py-6 px-4 rounded-2xl md:mr-2 mr-0 md:mb-0 mb-4"
-          >
+        <div class="md:flex block mt-8">
+          <div class="bg-gray-100 p-10 rounded-2xl md:mr-3 mr-0 md:mb-0 mb-5">
             <div class="flex">
               <div class="pr-3">
                 <img width="76" src="../assets/man.png" />
@@ -100,9 +94,7 @@
               </div>
             </div>
           </div>
-          <div
-            class="bg-gray-100 py-6 px-4 rounded-2xl md:ml-2 ml-0 md:mt-0 mt-4"
-          >
+          <div class="bg-gray-100 p-10 rounded-2xl md:ml-3 ml-0 md:mt-0 mt-5">
             <div class="flex">
               <div class="pr-3">
                 <img width="76" src="../assets/badboy.png" />
